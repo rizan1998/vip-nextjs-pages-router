@@ -6,8 +6,7 @@ const shopPage = () => {
   return (
     <div>
       <h1>shoping page</h1>
-      <p>{query.slug && query.slug[0] + "-" + query.slug[1]}</p>
-      {/* <p>shop {`${query.slug ? query.slug[0] : "" + "-" + query.slug[0]}`}</p> */}
+      <p>shop = {query.slug && query.slug[0] + "-" + query.slug[1]}</p>
     </div>
   );
 };
