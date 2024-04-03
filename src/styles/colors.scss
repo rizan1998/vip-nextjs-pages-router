@@ -1,0 +1,7 @@
+$schema: (
+  primary: #ffffc6,
+);
+
+@function get-color($key) {
+  @return map-get($schema, $key);
+}

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import styles from "./login.module.css";
+import styles from "./login.module.scss";
 
 const LoginViews = () => {
   //   const router = useRouter();
@@ -11,7 +11,7 @@ const LoginViews = () => {
   };
   return (
     <div className={styles.login}>
-      <h1>Login Page</h1>
+      <h1 className="text-6xl font-bold">Login Page</h1>
       <div>
         <button onClick={() => handleLogin()}>login</button>
       </div>
